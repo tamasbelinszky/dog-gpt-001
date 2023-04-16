@@ -17,7 +17,7 @@ export const initialState: ChatState = {
   messages: [
     {
       id: '0',
-      data: 'Welcome to DogGPT, the chatbot that creates dog breed images using dog-gpt-001. Want to see an image of your favorite breed? Just type its name!',
+      data: 'Welcome to DogGPT, the chatbot that retrieves dog breed images using dog-gpt-001. Want to see an image of your favorite breed? Just type its name!',
       sender: 'bot',
       type: 'text',
     },

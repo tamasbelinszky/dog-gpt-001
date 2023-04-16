@@ -5,7 +5,7 @@ import Link from 'next/link'
 export const metadata = {
   title: 'DogGPT',
   description:
-    'Welcome to DogGPT, the chatbot that creates dog breed images using dog-gpt-001. Want to see an image of your favorite breed? Just type its name!',
+    'Welcome to DogGPT, the chatbot that retrieves dog breed images using dog-gpt-001. Want to see an image of your favorite breed? Just type its name!',
   themeColor: 'black',
   category: 'technology',
 }

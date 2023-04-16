@@ -1,6 +1,6 @@
 {
   "name": "doggpt",
-  "description": "Welcome to DogGPT, the chatbot that creates dog breed images using dog-gpt-001. Want to see an image of your favorite breed? Just type its name!",
+  "description": "Welcome to DogGPT, the chatbot that retrieves dog breed images using dog-gpt-001. Want to see an image of your favorite breed? Just type its name!",
   "version": "0.1.0",
   "private": true,
   "scripts": {

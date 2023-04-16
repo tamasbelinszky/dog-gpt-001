@@ -3,13 +3,9 @@
 @tailwind utilities;
 
 :root {
-  --primary-color-rgb: 255, 215, 0;
-  /* gold */
   --foreground-rgb: 255, 255, 255;
   --background-start-rgb: 16, 16, 16;
-  /* dark grey */
   --background-end-rgb: 30, 30, 30;
-  /* darker grey */
 }
 
 body {
@@ -21,10 +17,6 @@ body {
 input {
   color: rgb(26, 25, 25)
 }
-
-/***
-like this text-6xl font-bold p-6
-*/
 
 h1 {
   font: 700 3rem/1.2 "Roboto", sans-serif, bold;

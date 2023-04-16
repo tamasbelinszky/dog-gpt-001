@@ -8,9 +8,9 @@ export const dynamicParams = false
 export async function generateStaticParams() {
   const res = await fetch('https://dog.ceo/api/breeds/list/all')
   const data = await res.json()
-  return Object.keys(data.message).map((breed) => {
-    breed
-  })
+  return Object.keys(data.message).map((breed) => ({
+    breed,
+  }))
 }
 
 type BreedProps = {

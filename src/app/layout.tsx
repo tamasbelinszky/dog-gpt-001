@@ -16,7 +16,14 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
       <body>
         <nav className="relative">
           <Link href={'/'} className="">
-            <Image src="/dog.png" alt="dog" width={50} height={50} className="absolute top-0 ml-8 mt-8" />
+            <Image
+              unoptimized
+              src="/dog.png"
+              alt="dog"
+              width={50}
+              height={50}
+              className="absolute top-0 ml-8 mt-8"
+            />
           </Link>
         </nav>
         {children}

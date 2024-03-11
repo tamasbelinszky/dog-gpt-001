@@ -8,6 +8,7 @@ export function DogImage({ src, ...props }: DogImageProps) {
   return (
     <Image
       src={src}
+      unoptimized
       alt={`A dog image from ${src}`}
       width={props?.width ?? 500}
       height={props?.height ?? 500}
